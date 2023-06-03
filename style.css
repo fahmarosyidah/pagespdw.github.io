@@ -1,0 +1,53 @@
+.footbar {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .row {
+    display: flex;
+    text-align: center;
+  }
+  
+  .col {
+    flex: 1;
+    padding: 10px;
+  }
+
+  .kartu {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+
+  }
+
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .card-img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .card-content {
+    font-size: 14px;
+  }
+
+  

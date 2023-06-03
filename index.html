@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>A Day In My Life</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body onload="updateClock()" style="background-color: white;">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-info">
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">A Day In My Life</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.thesunnysideupblog.com/2017/09/a-day-in-my-life/">Yesterday</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.timeanddate.com/calendar/">Calendar</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.etsy.com/market/blogging_planner">Plan</a>
+            </li>
+        </ul>
+      </div>
+  </nav>  
+
+  <div class="container" style="width: 800px; height: 1000px;">
+    <div class="row">
+      <div class="col">
+        <p><span id="ucapan-selamat"></span> Osyi!</p>
+      </div>
+      <div class="col">
+        <p><span id="tgl"></span></p>
+        <p><span id="waktu"></span></p>
+      </div>
+    </div>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="room.jpg" class="d-block w-100" alt="room1">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Lets Cook!</h5>
+            <p>Cooking will never be delicious if it is not made out of love for the person it is intended for.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="room1.jpg" class="d-block w-100" alt="room2">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Take a rest!</h5>
+            <p>Adequate rest is important.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="room3.jpg" class="d-block w-100" alt="room3">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Fashion!</h5>
+            <p>Elegance is the only beauty that will never fade.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="kartu">
+      <div class="card">
+        <img src="sarapan.jpg" alt="Gambar 1" class="card-img">
+        <h2 class="card-title">Breakfast</h2>
+        <p class="card-content">Healthy food is the most powerful medicine for every disease.</p>
+      </div>
+  
+      <div class="card">
+        <img src="sepeda.jpg" alt="Gambar 2" class="card-img">
+        <h2 class="card-title">Hobby</h2>
+        <p class="card-content">Life is like riding a bicycle. To maintain balance, you have to keep walking.</p>
+      </div>
+  
+      <div class="card">
+        <img src="pets.jpg" alt="Gambar 3" class="card-img">
+        <h2 class="card-title">Pet</h2>
+        <p class="card-content">Koya is my very cute and adorable cat.</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footbar">
+    <p>Hak Cipta &copy; 2023 Situs Kami. All rights reserved.</p>
+  </div>
+  
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
